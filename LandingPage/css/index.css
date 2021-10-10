@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------Heading--------*/
+h1{
+    height: 20px;
+    padding: 20px 25px;
+    background-color:cornsilk;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+    font-style:oblique;
+    color:orange;
+    font-weight:bolder;
+}
+/*-----Main Container----*/
+#container
+{
+    height:100vh;
+    background-image: url(../img/index.jpg);
+    border: 2px solid black;
+    background-size: cover;
+    border-radius: 20px;
+}
+/*-------Box----*/
+#box{
+    width: 1400px;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+    top: 20px;
+}
+#sout{
+    background-color:/*rgb(212, 148, 123)*/cornsilk;
+    text-align: right;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*-----Logo----*/
+#img{
+    height:20px;
+    width:50px;
+}
+/*-----Navigation----*/
+/*#nav{
+    overflow: auto;
+    float: left;
+    margin-top:25px;
+}*/
+li{
+    float: left;
+    margin-right: 2px;
+    padding: 10px 6px;
+    margin-top: 18px;
+    border-radius: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    float:left;
+
+}
+a{
+    text-decoration: none;
+    margin-right:20px;
+}
+/*-----title-----*/
+h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 45%;
+    font-style:oblique;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*-------Title-------*/
+#title{
+    overflow: auto;
+    font-family:sans-serif;
+}
+/*----BUtton----*/
+#Btn{
+    text-align: center;
+}
+#Btn a{
+    text-decoration: none;
+    border:3px solid black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:firebrick;
+    background-color: orange;
+    border-radius: 20px;
+    padding:8px 30px;
+}
+/*-----footer----*/
+#footer{
+    margin-top: 300px;
+    margin-left: 45%;
+    font-style: italic; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+p{
+    margin-left:5%;
+}

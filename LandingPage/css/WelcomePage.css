@@ -1,0 +1,42 @@
+#container
+{
+    height:100vh;
+    background-image: url(../img/welcome.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+h1{
+        margin-top: 5px;
+        background-color:darksalmon;
+        border-radius: 20px;
+        text-align: center;
+        font-style:inherit;
+        color:white;
+}
+a{
+    text-decoration: none;
+    color:brown;
+    border:2px solid black;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding:8px 13px;
+    position: relative;
+    top: 18px;
+}
+#login{
+    margin-top: 150px;
+    margin-left: 37%;
+    padding: 50px 67px;
+    width: 25%;
+}
+.button {
+    text-decoration: none;
+    color:brown;
+    border:2px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+    padding:8px 13px;
+    position: relative;
+    top: 18px;
+}

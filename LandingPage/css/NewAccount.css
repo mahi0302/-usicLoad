@@ -1,0 +1,28 @@
+#container{
+    height: 100vh;
+    background-image: url(../img/regis.png);
+    background-size: cover;
+}
+#adjust{
+    padding: 35px 15px;
+    margin-right: 70%;
+}
+a{
+    text-decoration: none;
+    color:brown;
+    background-color: white;
+    border:2px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+    padding:8px 35px;
+    position: relative;
+}
+.button {
+    text-decoration: none;
+    color:brown;
+    border:2px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+    padding:8px 13px;
+    position: relative;
+}

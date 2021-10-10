@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Account</title>
+    <link rel="stylesheet" href="./css/NewAccount.css">
+</head>
+<body>
+    <div id="container">
+        <div id="adjust">
+    <form action="./SubmitDetails.html">
+        <fieldset>
+            <legend style="color:brown; font-size: 20px">μsic Member Details</legend>
+            <label for="fname">First-Name *</label>
+            <input type="text" name="fname" id="fname" placeholder="First-Name" maxlength="10" required><br><br>
+            <label for="lname">Last-Name *</label>
+            <input type="text" name="lname" id="lname" placeholder="Last-Name" maxlength="8" required><br><br>
+            <label for="phone">Phone Number *</label>
+            <select name="emptype" id="emp"> 
+                <option value="India" selected>+91</option>
+            </select><input type="text" placeholder="10 digit number"><br><br>
+            <label for="mail">E-mail *</label>
+            <input type="email" name="mail" id="mail" placeholder="xyz@gmail.com" required><br><br>
+            <label for="pwd">Password *</label>
+            <input type="password" name="pwd" id="pwd" placeholder="password" maxlength="10" required><br><br>
+            <label for="pwd1">Confirm Password *</label>
+            <input type="password" name="pwd1" id="pwd1" placeholder="confirm password" maxlength="10" required><br><br>
+            <input type="Submit" value="Submit Details" class="button">
+            <a href="./WelcomePage.html">Exit</a>
+        </fieldset>
+    </form>
+</div>
+</div>
+</body>
+</html>
